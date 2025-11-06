@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9f7fb9d0-83cb-4086-a3ee-44e4bb2bd833}">
+		<property name="assetPath">
+			<value>832331__thehiddendepthmusic__edm-arp.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.007823129251701</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fbb96073-dafe-4475-891e-b33ffb2ae5ce}</destination>
+		</relationship>
+	</object>
+</objects>

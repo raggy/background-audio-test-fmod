@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://xoqsejtmxyjp"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="FmodBankLoader" type="FmodBankLoader" parent="."]
+bank_paths = ["res://banks/Desktop/Master.strings.bank", "res://banks/Desktop/Master.bank"]
+
+[node name="FmodListener3D" type="FmodListener3D" parent="."]
+
+[node name="FmodEventEmitter3D" type="FmodEventEmitter3D" parent="."]
+event_name = "event:/loop"
+event_guid = "{9bd4a7e3-ca46-4f4c-877c-228106618c44}"
+autoplay = true

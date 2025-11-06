@@ -1,0 +1,37 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[Fmod]
+
+General/banks_path="res://banks/Desktop"
+
+[application]
+
+config/name="background-audio-test-fmod"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.5", "Mobile")
+config/icon="res://icon.svg"
+
+[autoload]
+
+FmodManager="*res://addons/fmod/FmodManager.gd"
+
+[display]
+
+window/handheld/orientation=6
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/fmod/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

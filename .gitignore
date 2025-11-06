@@ -1,0 +1,11 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# FMOD
+fmod/.cache/
+fmod/.unsaved/
+fmod/.user/
+
+# Builds
+/builds/
